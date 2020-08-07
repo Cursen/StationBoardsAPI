@@ -1,0 +1,24 @@
+.scrolling-text {
+    -moz-animation: marquee 15s infinite linear;
+            -o-animation: marquee 15s infinite linear;
+            -webkit-animation: marquee 15s infinite linear;
+            animation: marquee 15s infinite linear;
+}
+
+.display-board {
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.board-row:not(:first-child) {
+	border-top-style: groove;
+	border-top-color: rgb(154, 152, 152);
+	border-top-width: 1px;
+}
+
+.via-points {
+}
